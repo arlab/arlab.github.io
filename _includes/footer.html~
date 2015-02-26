@@ -6,18 +6,24 @@
           <h5 class="ui inverted header">Theme</h5>
           <div class="ui inverted link list">
             <a class="item" href="/blog/">Blog</a>
+            <a class="item" href="/category/#theme">Theme Features</a>
+            <a class="item" href="/tag/#embeds">Embed Plugins</a>
           </div>
         </div>
         <div class="column">
           <h5 class="ui inverted header">Design</h5>
           <div class="ui inverted link list">
             <a class="item" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">Content Strategy</a>
+            <a class="item" href="/kitchensink/">Semantic UI Examples</a>
+            <a class="item" href="http://semantic-ui.com/">Semantic UI Site</a>
           </div>
         </div>
         <div class="column">
           <h5 class="ui inverted header">OpenSource</h5>
           <div class="ui inverted link list">
             <a class="item" href="https://github.com/arlab">Visit ARLAB</a>
+            <a class="item" href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">Cloud Workflow</a>
+            <a class="item" href="{% post_url /blog/2014-12-2-data-driven-web-apps-using-github %}">Data Apps</a>
           </div>
         </div>
       </div>
