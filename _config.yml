@@ -6,7 +6,7 @@ email: ckloo.um@um.edu.my
 copyright: ARLAB, University of Malaya
 keywords: ARLAB, Research, Robotics, Artificial Intelligence
 
-description: > # > Advanced Robotic Lab (ARL) is focusing on advances of Robotics, Machine Learning, Artificial Intelligence, Information Technology, etc.
+description: > ## Advanced Robotic Lab (ARL) is focusing on advances of Robotics, Machine Learning, Artificial Intelligence, Information Technology, etc.
 
 # the base hostname & protocol for your site
 url: "http://arl.fsktm.um.edu.my/"
