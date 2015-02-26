@@ -3,6 +3,66 @@ layout: landing
 title: Home
 ---
 
+<div class="ui inverted vertical segment">
+  <div class="ui centered page grid">
+    <div class="fourteen wide column">
+      <div class="ui five column center aligned stackable inverted divided grid">
+        <div class="column">
+          <a class="ui small red inverted statistic" href="/apps/">
+            <div class="value">
+              <i class="cube icon"></i> {{ site.categories.app | size  }}
+            </div>
+            <p class="label">
+              Projects
+            </p>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small purple inverted statistic pagebar" href="#">
+            <div class="value">
+              <i class="content icon"></i> {{ site.pages | size  }}
+            </div>
+            <div class="label">
+              Publication
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small blue inverted statistic" href="/embeds/">
+            <div class=" value">
+              <i class="wizard icon"></i> {{ site.data.embeds | size }}
+            </div>
+            <div class="label">
+              People
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small orange inverted statistic" href="http://github.com/arlab/">
+            <div class="text value">
+              std::cout
+            </div>
+            <div class="label">
+              Code Base
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small blue inverted statistic" href="/category/#theme">
+            <div class="value">
+              <i class="student icon"></i> {{ site.categories.theme | size  }}
+            </div>
+            <div class="label">
+              Teaching
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="ui feature vertical segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
@@ -92,64 +152,6 @@ title: Home
   </div>
 </div>
 
-<div class="ui inverted vertical segment">
-  <div class="ui centered page grid">
-    <div class="fourteen wide column">
-      <div class="ui five column center aligned stackable inverted divided grid">
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/apps/">
-            <div class="value">
-              <i class="cube icon"></i> {{ site.categories.app | size  }}
-            </div>
-            <p class="label">
-              Single Page Apps
-            </p>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small purple inverted statistic pagebar" href="#">
-            <div class="value">
-              <i class="content icon"></i> {{ site.pages | size  }}
-            </div>
-            <div class="label">
-              Templates
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/embeds/">
-            <div class=" value">
-              <i class="wizard icon"></i> {{ site.data.embeds | size }}
-            </div>
-            <div class="label">
-              Reusable Embeds
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small orange inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
-            <div class="text value">
-              One Minute
-            </div>
-            <div class="label">
-              Content Workflow
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/category/#theme">
-            <div class="value">
-              <i class="student icon"></i> {{ site.categories.theme | size  }}
-            </div>
-            <div class="label">
-              Theme Tutorials
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="ui vertical segment">
   <div class="ui centered page stackable divided grid">
