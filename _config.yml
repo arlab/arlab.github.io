@@ -1,19 +1,18 @@
 # Site settings
 
-title: Powerful New Theme for GitHub Pages | OpenTheme.co
-tagline: Amazing Websites and Hybrid Apps. Speedily!
-email: sehgal.manav@gmail.com
-copyright: Manav Sehgal
-keywords: open theme, github pages, semantic ui, single page apps
+title: Advanced Robotic Lab
+tagline: Welcome to Advanced Robotic Lab
+email: ckloo.um@um.edu.my
+copyright: ARLAB, University of Malaya
+keywords: ARLAB, Research, Robotics, Artificial Intelligence
 
-description: > # this means to ignore newlines until "url:". One indent required.
-  Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
+description: > # Advanced Robotic Lab (ARL) is focusing on advances of Robotics, Machine Learning, Artificial Intelligence, Information Technology, etc.
 
 # the base hostname & protocol for your site
-url: "http://opentheme.co"
+url: "http://arl.fsktm.um.edu.my/"
 
-twitter_username: manavsehgal
-github_username:  manavsehgal
+twitter_username: arlab
+github_username: arlab
 
 default_image: /img/opentheme-workflow.png
 
