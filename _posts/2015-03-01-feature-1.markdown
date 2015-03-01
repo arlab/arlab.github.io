@@ -1,0 +1,36 @@
+---
+layout: default
+title: Deep Learning
+date: 2015-03-01
+img: cabin.png
+alt: image-alt
+project-date: March 2015
+client: Yuhuang Hu
+category: Deep Learning
+description: A Deep neural network is proposed by using GPU platform
+
+---
+
+This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.
+
++ This are some random contents.
++ This are some random contents.
++ This are some random contents.
++ This are some random contents.
+
+> This are some random contents.
+> This are some random contents.
+> This are some random contents.
+
+
+### Publications
+
+### Related Links
+
++ [Theano](http://deeplearning.net/software/theano/): A CPU and GPU math expression compiler.
++ [PyLearn2](http://deeplearning.net/software/pylearn2/): A machine learning library for research.
++ 
+
+### Acknowledgements
+
+We acknowledge the support of NVIDIA Coporation with the donation used for this research.
