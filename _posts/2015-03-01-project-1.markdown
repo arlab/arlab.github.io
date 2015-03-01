@@ -23,10 +23,15 @@ This are some random contents.This are some random contents.This are some random
 > This are some random contents.
 > This are some random contents.
 
-## things are happen
 
-### if font changes
+### Publications
 
-#### if changes
+### Related Links
 
-## links
++ [Theano](http://deeplearning.net/software/theano/): A CPU and GPU math expression compiler.
++ [PyLearn2](http://deeplearning.net/software/pylearn2/): A machine learning library for research.
++ 
+
+### Acknowledgements
+
+We acknowledge the support of NVIDIA Coporation with the donation used for this research.
