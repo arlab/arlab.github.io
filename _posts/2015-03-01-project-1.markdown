@@ -1,0 +1,28 @@
+---
+layout: default
+modal-id: 1
+title: Deep Eye-mimicry Video Processor
+date: 2015-03-01
+img: cabin.png
+alt: image-alt
+project-date: March 2015
+client: Yuhuang Hu
+category: Deep Learning
+description: A Deep neural network is proposed by using GPU platform
+
+---
+
+This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.
+
++ This are some random contents.
++ This are some random contents.
++ This are some random contents.
++ This are some random contents.
+
+> This are some random contents.
+> This are some random contents.
+> This are some random contents.
+
+## things are happen
+
+## links
