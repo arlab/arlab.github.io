@@ -9,7 +9,7 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 80b3ff #18bc9c #80B3FF
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
@@ -18,7 +18,7 @@ footer:
   copyright: Advanced Robotic Lab
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: FfT
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -37,7 +37,7 @@ address:
   - line: University of Malaya, Malaysia
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Never seek to tell thy love, Love that never told can be.'
 
 # Build settings
 markdown: kramdown
