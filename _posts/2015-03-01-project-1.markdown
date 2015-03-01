@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 title: Deep Eye-mimicry Video Processor
 date: 2015-03-01
-img: cabin.png
+img: dl_feature.jpg
 alt: image-alt
 project-date: March 2015
 client: Yuhuang Hu
