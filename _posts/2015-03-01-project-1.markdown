@@ -23,6 +23,13 @@ This are some random contents.This are some random contents.This are some random
 > This are some random contents.
 > This are some random contents.
 
+###GPU Acceleration
+
+Our research is greatly supported by recent development of GPU computing.
+
+![Tesla K40](http://arlab.github.io/img/nvidia-tesla-k40.jpg)
+
+The above image is an example of NVIDIA's Tesla K40.
 
 ### Publications
 
