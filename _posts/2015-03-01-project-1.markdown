@@ -8,22 +8,23 @@ alt: image-alt
 project-date: March 2015
 client: Yuhuang Hu
 category: Deep Learning
-description: A Deep neural network is proposed by using GPU platform
+description: Deep Neural Network architecture that learns the visual world.
 
 ---
 
-This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.This are some random contents.
 
-+ This are some random contents.
-+ This are some random contents.
-+ This are some random contents.
-+ This are some random contents.
+### Introduction
 
-> This are some random contents.
-> This are some random contents.
-> This are some random contents.
+This research focus on building a deep neural network architecture that models spatio-temporal visual information using unsupervised learning.
 
-###GPU Acceleration
+Following Mind Map is what we are focusing right now in this project:
+
+![Deep Eye](http://arlab.github.io/img/deep-eye-mind-map.png)
+
+
+### GPU Acceleration
+
+#### Hardware
 
 Our research is greatly supported by recent development of GPU computing.
 
@@ -31,13 +32,26 @@ Our research is greatly supported by recent development of GPU computing.
 
 The above image is an example of NVIDIA's Tesla K40.
 
+#### Software
+
+The major player of developing GPU computing libraries is NVIDIA. They offerd CUDA Toolkit, a comprehansive library that allows user to perform general computing tasks efficiently.
+
+Due to the complexity of the CUDA, Deep Learning researchers developed many libraries to 
+
+There are several libraries available to developers in open source: Theano, Torch 7, Caffe, etc. In our reserach, our code is tightly built around _Theano_ and its child _PyLearn2_. These libraries offered many useful interface so that we don't have to waste our time in dealing with GPU.
+
+#### Cloud computing wit Amazon GPU instance
+
+Even though GPUs are relatively cheap in current market, there are still some pricing difficulties when a deep learning system demands high computing resources. Currently, we are in the process of developing an scheduling architecture by using Amazon Web Services.
+
+Amazon provides a GPU instance that allows to perform GPU computing on the instance. We've published a working configuration for Deep Learning and a public image for researchers (You can find the configuration and necessary manual [here](https://github.com/duguyue100/awsdlgpu).
+
 ### Publications
 
 ### Related Links
 
 + [Theano](http://deeplearning.net/software/theano/): A CPU and GPU math expression compiler.
 + [PyLearn2](http://deeplearning.net/software/pylearn2/): A machine learning library for research.
-+ 
 
 ### Acknowledgements
 
