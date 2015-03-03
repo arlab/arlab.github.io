@@ -19,8 +19,10 @@ This research focus on building a deep neural network architecture that models s
 
 Following Mind Map is what we are focusing right now in this project:
 
-<div class="col-lg-6">
+<div>
+<p>
     <img class="img-responsive" src="http://arlab.github.io/img/deep-eye-mind-map.png" alt="">
+</p>
 </div>
 
 
