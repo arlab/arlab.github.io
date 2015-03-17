@@ -1,5 +1,5 @@
 ---
-layout: people-style
+layout: default
 modal-id: dr-sabri
 permalink: /people/dr-sabri.html
 title: Dr. Aznul Qalid Md Sabri
