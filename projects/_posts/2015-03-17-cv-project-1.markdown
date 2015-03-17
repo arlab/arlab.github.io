@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: cv-1
+title: Sensors Modularity for Autonomous Micro Aerial Vehicle
+date: 2015-03-17
+img: cake.png
+alt: image-alt
+project-date: March 2015
+client: Start Bootstrap
+category: Computer Vision
+description: 
+
+---
+
+### Summary
+
+Over the last decade, research in micro aerial vehicle (MAV) navigation shows that fusing information from multiple sensors increases robustness and accuracy. However, accurate calibration of multiple sensors must deal with correcting accumulated sensors’ noise and the discrepancy in measurement rates (delays) which makes multi-sensor fusion a challenge. For this reason, exploiting all sensory information available in exchange for simplicity becomes a risky tradeoff. As an example, it is common to rely only on continuous sensory input (such as vision and laser) and ignore global positioning system (GPS) signals in a task which requires an MAV to switch from indoor (GPS-denied environment) to outdoor. As a result, such approach risks losing robustness and accuracy in real-time experiment. This research pays attention to such problem. In particular, we are interested to investigate how an MAV equipped with a GPS receiver as well as visual and inertial sensors handles any add and loss of online sensor signals. As a consequent, our research aims to propose a generic modularity framework which has the capability to process delayed, relative and absolute measurements from various sensors so that they may inter-calibrate as a unit or stand-alone as needed by the tasks assigned. We plan to test the performance of our algorithm indoors to outdoors and vice-versa in both simulated and real-world environment. The output of this research would be the proposition of a new framework that ensures sensors modularity and fusion for autonomous micro aerial vehicle.
+
+### Acknowledgements
+
+Fundamental Research Grant Scheme Phase 1 (FRGS), 2014 – 2016
