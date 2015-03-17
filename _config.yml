@@ -1,5 +1,5 @@
 # Site settings
-title: Advanced Robotic Lab
+title: CoViro
 email: ckloo.um@um.edu.my
 url: https://arl.fsktm.um.edu.my
 description: "Advanced Robotic Lab (ARL) is focusing on advances of Robotics, Machine Learning, Artificial Intelligence, Information Technology, etc."
@@ -15,7 +15,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Advanced Robotic Lab
+  copyright: CoVario
   location: Location
   social: Around the Web
   credits: FfT
@@ -31,7 +31,6 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Advanced Robotic Lab
   - line: Department of Artificial Intelligence
   - line: Faculty of Computer Science & IT
   - line: University of Malaya, Malaysia
