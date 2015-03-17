@@ -5,8 +5,7 @@ title: Dr. Erma Rahayu Mohd Faizal Abdullah
 date: 2015-03-17
 img: erma.png
 alt: Dr. Erma
-description: Senior lecturer  
-Principal Investigator for UMRG (sub-program) and FRGS grant 2014
+description: Senior lecturer, Principal Investigator for UMRG (sub-program) and FRGS grant 2014
 ---
 
 ### Contacts
