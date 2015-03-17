@@ -9,38 +9,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/aznul.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/erma.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/hayyan.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/thinagaran.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/alex.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/farhan.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <p><br></p>
-                </div>
-                <div class="col-sm-2">
-                    <center><img class="img-responsive" src="img/people/parham.png" width="128" height="128" alt=""></center>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <p><br></p>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <a href="#project-1" class="btn btn-success btn-lg" data-toggle="modal">
-                        Read More
-                    </a>
-                </div>
+                {% for post in site.categories.people %}
+                    <div class="col-sm-2 portfolio-item">
+                        <a href="#{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <center><img src="img/people/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}"></center>
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </section>
