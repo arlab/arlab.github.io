@@ -10,13 +10,9 @@
             </div>
             <div class="row">
                 {% for post in site.categories.people %}
-                    <div class="col-sm-2 portfolio-item">
+                    <div class="col-sm-4 portfolio-item">
                         <a href="#{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                </div>
-                            </div>
-                            <img src="img/people/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" width="128" height="128">
+                            <center><img src="img/people/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" width="128" height="128"></center>
                         </a>
                     </div>
                 {% endfor %}
